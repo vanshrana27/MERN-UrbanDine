@@ -59,7 +59,12 @@ project/
 
 Create a `.env` file inside your **server** folder:
 
-MONGO_URI=your_mongodb_atlas_connection_string PORT=4000
+PORT = 4000 
+
+FRONTEND_URL = http://localhost:5173
+
+MONGO_URI = mongodb+srv://23amtics003_db_user:fi6Dn5hEn6jcD9rC@mycluster.bwchkk3.mongodb.net/?retryWrites=true
+
 
 
 ---
@@ -138,7 +143,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ---
-
-
 
 
