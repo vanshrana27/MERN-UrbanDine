@@ -1,4 +1,5 @@
-# Ignore node modules so Jekyll doesn't parse them
+# .jekyllignore — place at repo root
+# prevent Jekyll from parsing node modules and backend
 node_modules/
 Backend/node_modules/
 Backend/**
