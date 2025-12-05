@@ -13,7 +13,7 @@ return (
 
         <div className="combined_boxes">
             <div className="imageBox">
-            <img src="/hero1.png" alt="hero1" />
+            <img src="/MERN-UrbanDine/hero1.png" alt="hero1" />
             </div>
 
             <div className="textAndLogo">
@@ -22,14 +22,14 @@ return (
                 <h1 className="title dishes_title">Dishes</h1>
                 <img src="/threelines.svg" alt="three lines" />
             </div>
-            <img src="/logo.svg" alt="logo" className="logo" />
+            <img src="/MERN-UrbanDine/logo.svg" alt="logo" className="logo" />
             </div>
         </div>
         </div>
 
         <div className="banner">
         <div className="imageBox">
-            <img src="/hero2.png" alt="hero2" />
+            <img src="/MERN-UrbanDine/hero2.png" alt="hero2" />
         </div>
         <h1 className="title dishes_title">Dishes</h1>
         </div>

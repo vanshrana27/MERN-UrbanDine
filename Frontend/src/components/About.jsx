@@ -18,7 +18,7 @@ return (
                 </Link>
             </div>
             <div className="banner">
-                <img src="/about.png" alt="about"/>
+                <img src="/MERN-UrbanDine/about.png" alt="about"/>
             </div>
         </div>
     </section>

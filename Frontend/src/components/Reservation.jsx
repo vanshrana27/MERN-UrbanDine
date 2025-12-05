@@ -18,7 +18,7 @@ const Reservation = () => {
         e.preventDefault();
         try{
             const {data} = await axios.post(
-                "http://localhost:4000/api/v1/reservation/send",
+                `${import.meta.env.VITE_API_URL ?? "http://localhost:4000"}/api/v1/reservation/send`,
                 { firstName, lastName, email, date, time, phone},
                 {
                     headers:{ "Content-Type": "application/json" },
@@ -45,7 +45,7 @@ const Reservation = () => {
         <section className="reservation" id="reservation">
             <div className="container">
                 <div className="banner">
-                    <img src="/reservation.png" alt="res"/>
+                    <img src="/MERN-UrbanDine/reservation.png" alt="res"/>
                     <div className="reservation_form_box">
                         <h1>MAKE A RESERVATION</h1>
                         <p>For Further Questions, Please Call</p>

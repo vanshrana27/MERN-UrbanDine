@@ -162,7 +162,7 @@ nav svg {
   min-height: 80vh;
   justify-content: space-between;
   align-items: center;
-  background: url(/background.svg);
+  background: url(/MERN-UrbanDine/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -859,7 +859,7 @@ footer .container .banner .right {
   min-height: 75vh;
 
   /* background */
-  background: linear-gradient( to right, #fff 0%, #faf3f8 60% ), url('/reserve.svg');
+  background: linear-gradient( to right, #fff 0%, #faf3f8 60% ), url('/MERN-UrbanDine/reserve.svg');
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain; /* or `cover` if you want it to fill */
@@ -1004,7 +1004,7 @@ footer .container .banner .right {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
-  background: url(/background.svg);
+  background: url(/MERN-UrbanDine/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
