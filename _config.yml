@@ -1,0 +1,10 @@
+# _config.yml — tell Jekyll what to exclude
+exclude:
+  - node_modules
+  - Backend
+  - Backend/**
+
+# optional: you can also set the jekyll source/destination if needed
+# source: .
+# destination: _site
+
