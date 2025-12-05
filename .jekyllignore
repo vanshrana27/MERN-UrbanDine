@@ -1,0 +1,4 @@
+# Ignore node modules so Jekyll doesn't parse them
+node_modules/
+Backend/node_modules/
+Backend/**
