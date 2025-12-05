@@ -1,11 +1,17 @@
-# Dependencies
+# -----------------------------
+# 🔹 Node Dependencies
+# -----------------------------
 node_modules/
 
-# Production builds
+# -----------------------------
+# 🔹 Build & Production Folders
+# -----------------------------
 dist/
 build/
 
-# Environment variables
+# -----------------------------
+# 🔹 Environment Variables
+# -----------------------------
 .env
 .env.local
 .env.development
@@ -15,70 +21,81 @@ build/
 .env.production.local
 .env.test
 
-# Config files with secrets
+# Backend custom env file (if used)
 Backend/config/config.env
 
-# Logs
+# -----------------------------
+# 🔹 Logs
+# -----------------------------
 *.log
-logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+logs/
 
-# Runtime data
+# -----------------------------
+# 🔹 Runtime Data
+# -----------------------------
 pids/
 *.pid
 *.seed
 *.pid.lock
 
-# Coverage directories
+# -----------------------------
+# 🔹 Coverage Reports
+# -----------------------------
 coverage/
 .nyc_output/
 
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
+# -----------------------------
+# 🔹 Cache
+# -----------------------------
+.cache/
+.parcel-cache/
 .yarn-integrity
+.npm/
 
-# Caches
-.cache
-.parcel-cache
-
-# IDE files
+# -----------------------------
+# 🔹 IDE / Editor Files
+# -----------------------------
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS generated files
+# -----------------------------
+# 🔹 OS Generated Files
+# -----------------------------
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-ehthumbs.db
 Thumbs.db
+ehthumbs.db
 
-# Temporary files
+# -----------------------------
+# 🔹 Temporary Files
+# -----------------------------
 *.tmp
 *.temp
 
-# Database files (if any local DB)
+# -----------------------------
+# 🔹 Database Files (local only)
+# -----------------------------
 *.db
 *.sqlite
 *.sqlite3
 
-# Test files
+# -----------------------------
+# 🔹 Test Output
+# -----------------------------
 test-results/
 playwright-report/
+
+# -----------------------------
+# 🔹 Misc
+# -----------------------------
+*.tgz             # NPM pack output
+node_repl_history
